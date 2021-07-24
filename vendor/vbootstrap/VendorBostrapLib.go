@@ -1,5 +1,5 @@
 package vbootstrap
 
-func VendorBostrapLibCall() {
-	println("Vendor VendorBostrapLibCall")
+func BostrapLibCall() {
+	println("Vendor BostrapLibCall")
 }
