@@ -1,9 +1,9 @@
 package assets
 
-import "vbootstrap"
+import "bootstrap"
 
 func AssetsLibCall() {
-	println("hugo-modelt nested vendor app -> assets lib call")
+	println("hugo-modelt nested vendor app -> assets BootstrapLibCall")
 
-	vbootstrap.VendorBostrapLibCall();
+	bootstrap.BootstrapLibCall()
 }

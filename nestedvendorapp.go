@@ -1,12 +1,13 @@
 package main
 
 import (
+	"vendor_bootstrap"
+
 	"github.com/tpavel-aspose/hugo-module-nested-vendor/assets"
-	"vbootstrap"
 )
 
 func main() {
 	print("hugo-modelt nested vendor app\n")
 	assets.AssetsLibCall()
-	vbootstrap.VendorBostrapLibCall()
+	vendor_bootstrap.VendorBostrapLibCall()
 }
